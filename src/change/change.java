@@ -34,9 +34,9 @@ public class change
 	}
 	public static void main (String[] args) 
 	{
-		int coins[] = {9, 6, 5, 1};
+		int coins[] = {17, 13, 12, 10, 8, 5, 2, 1};
 		int m = coins.length;
-		int V = 11;
+		int V = 110;
 		System.out.println ( "Minimum coins required is "
 				+ getChange(coins,  V));
 	}
